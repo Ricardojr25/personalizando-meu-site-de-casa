@@ -1,0 +1,128 @@
+/* reset p/ navegador */
+body{   /* corpo do texto */
+    width: 100%;    /* altura */
+    height: 200%;   /* largura */
+    display: flex;  /* aonde/como pode ser visualizado */
+    justify-content: center;        /* posicionamento */
+    background: linear-gradient(rgb(251, 0, 255), rgb(0, 162, 255));    /* cor do fundo com degrade */
+    background-repeat: repeat; 
+
+}
+.imagem{    /* estrutura DIV */
+    display: flex;  /* aonde/como pode ser visualizado */
+    justify-content: center;    /* posicionamento */
+}
+.imagem img{    /* img foto do site */
+    width: 650px;   /* tamanho */
+    border-radius: 40px;   /* arredondamento da borda */
+    margin-top: 30px;   /* distancia entre a imagem e o topo do site */
+    box-shadow: 0px 0px 15px rgb(0, 162, 255);
+}
+.nome {
+    margin-top: 30px;   /* distancia entre a imagem e o topo do site */
+    display: flex;  /* aonde/como pode ser visualizado */
+    justify-content: center;    /* posicionamento */
+    font-size: 32px;    /* tamanho/grossura da fonte */
+    font-weight: 700;   /* altura da fonte */
+    color: rgba(252, 252, 252, 0.986);  /* cor do nome da "img" */
+    font-family: Arial, Helvetica, sans-serif;  /* tipo da fonte */
+    text-shadow: 9px 5px 7px rgb(0, 0, 0);
+}
+.redes-sociais{
+    display: flex;  /* aonde/como pode ser visualizado */
+    margin-top: 35px;   /* margem superior*/
+    justify-content: center;    /* posicionamento */
+    align-items: center;    /* centralizar ítens */
+}
+.redes-sociais a{
+    text-decoration: none;  /* linhas de decoração do texto */
+}
+.ícone, .email{
+    height: 35px;   /* largura */
+    width: 35px;    /* tamanho */
+    border-radius: 35px;    /* arredondamento da borda */
+    transition: all 0.3s ease-out;  /* transição */
+    box-shadow: 4px 5px 5px rgb(19, 80, 116);   /* caixa de sombra*/
+    margin: 10px;   /* margem */
+    overflow: hidden;   /* efeito mascara*/
+}
+.ícone i, .email{
+    display: inline-block;  /* aonde/como pode ser visualizado */
+    width: 35px;    /* tamanho */
+    height: 35px;   /* largura */
+    line-height: 35px;  /* largura da linha */
+    text-align: center;     /* alinhamento do texto */
+    font-size: 20px;    /* tamanho/grossura da fonte */
+    border-radius: 30px;    /* arredondamento da borda */
+    background-color: rgb(9, 112, 159);     /* cor do fundo dos ícones */
+    color: rgb(255, 255, 255);  /* cor dos ícones */
+    cursor: pointer;
+}
+.ícone span a {
+    list-style: none;   /* estilo de linha */
+    font-family: 'Times New Roman', Times, serif;   /* tipo da fonte */
+    float: right;   /* efeito fde flutuar */
+    margin-right: 23px;     /* margem da direita */
+    color: rgb(255, 255, 255);  /* cor da letra das redes sociais */
+    line-height: 35px;  /* largura da linha */
+    font-size: 15px;    /* tamanho/grossura da fonte */
+}
+.ícone:hover{
+    width: 125px;   /* tamanho */
+    background-color: rgb(0, 162, 255);     /*fundo dos nomes das redes sociais */
+}
+.texto{ /* texto "sobre mim"*/
+    display: flex;
+    position: relative; /* sua estrutura pode mudar, mas seu conteúdo não */
+    justify-content: center;
+    align-items: center;
+    margin: 80px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    width: 700px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 15px;
+    padding: 35px 40px 35px 35px;
+    color: rgb(255, 255, 255);
+    background: rgb(3, 57, 83);
+    overflow: hidden;
+    box-shadow: 0px 0px 7px black;
+}
+.sobre-mim{
+    position: absolute;
+    top: -80px;
+    /* transform: translate. valor em % */
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 35px;
+}
+.linguagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(225, 225, 225);
+    text-shadow: 5px 5px 5px black;
+}
+.projetos {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.projetos img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 370px;
+    color: white;
+}
